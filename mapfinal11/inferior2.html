@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mapa Fernando Prestes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/CSS/global.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/IMG/logoSite.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ajuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">sobre-nós</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid ">
+            <ul class="navbar-nav mx-auto custom-grid">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Térreo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="anexo.html">Anexo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="superior.html">Superior</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="inferior.html">Inferior</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="inferior2.html">Inferior2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="locacao.html">Locação</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- menu -->
+    <!--inferior 2-->
+    <div class="content-map">
+        <img src="assets/IMG/inferior2.jpg" class="img-fluid" alt="inferior2" usemap="#inferior2">
+        <map name="inferior2">
+            <area alt="sala1I" title="sala1I2" coords="21,49,144,163" shape="rect" data-info="sala1I2" tabindex="0">
+            <area alt="sala2I" title="sala2I2" coords="163,50,242,164" shape="rect" data-info="sala2I2" tabindex="0">
+            <area alt="pneumatica" title="pneumatica" coords="262,51,344,166" shape="rect" data-info="pneumatica" tabindex="0">
+            <area alt="anfiteatro" title="anfiteatro" coords="358,51,643,170" shape="rect" data-info="anfiteatro" tabindex="0">
+            <area alt="oficinaMecãnica" title="oficinaMecãnica" coords="21,244,341,501" shape="rect" data-info="oficinaMecanica" tabindex="0">
+        </map>
+    </div>
+    <div id="newbar" class="newbar" aria-live="polite"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="assets\JS\mapresize.min.js"></script>
+    <script>
+        imageMapResize();
+    </script>
+    <script src="assets\JS\locacao.js"></script>
+
+</body>
+
+</html>
