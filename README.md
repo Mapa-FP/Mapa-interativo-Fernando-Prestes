@@ -1,6 +1,7 @@
-<h4 style="text-align: center;">Mapa Interativo - ETEC Fernando Prestes</h4>
+<center><h1>Mapa Interativo - ETEC Fernando Prestes</h1></center>
 
-Descrição: Mapa interativo da ETEC Fernando Prestes para que os alunos possam se localizar e se locomover nas principais áreas da escola.
+Descrição: Mapa interativo da ETEC Fernando Prestes para que os alunos possam se localizar e se locomover nas principais áreas da escola.<br><br>
+acesse aqui: https://smiling-friends.github.io/Mapa-interativo-Fernando-Prestes/ 
 
 membros:
 <ul>
