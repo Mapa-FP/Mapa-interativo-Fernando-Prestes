@@ -22,7 +22,7 @@ const infoData = {
 
     labCadDeGestao: {
         title: "labCadDeGestão",
-        image: ""
+        image: "assets/IMG/laboratórioGestao.jpeg"
     },
 
     sala1A: {
@@ -192,7 +192,7 @@ const infoData = {
     },
     salaAmbiente01: {
         title: "salaAmbiente01",
-        image: ""
+        image: "assets/IMG/salaAmbiente01.jpeg"
     },
     salaAmbiente02: {
         title: "salaAmbiente02",
@@ -204,7 +204,7 @@ const infoData = {
     },
     salaAmbiente04: {
         title: "salaAmbiente04",
-        image: ""
+        image: "assets/IMG/salaAmbiente04.jpeg"
     },
     sala4T: {
         title: "sala4T",
@@ -256,7 +256,7 @@ const infoData = {
     },
     secretaria01: {
         title: "secretaria01",
-        image: ""
+        image: "assets/IMG/secretaria.jpeg"
     },
     admSecretaria: {
         title: "admSecretaria",
