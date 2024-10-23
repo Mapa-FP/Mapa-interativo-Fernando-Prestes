@@ -426,7 +426,7 @@ const infoData = {
     },
     areaLuz: {
         title: "areaLuz",
-        image: ""
+        image: "assets/IMG/areaLuz.jpeg"
     },
 
     //inferior 2
