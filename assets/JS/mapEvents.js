@@ -15,7 +15,7 @@ const infoData = {
     },
     quadrinha: {
         title: "Quadra aberta",
-        image: "https://th.bing.com/th/id/R.d9f040798931c98df0d8a952ada765db?rik=uSRaTW9kDDVDBg&pid=ImgRaw&r=0"
+        image: "assets/IMG/quadrinha.jpeg"
     },
 
     //anexo
@@ -159,9 +159,9 @@ const infoData = {
         title: "salaDesenho05",
         image: ""
     },
-    pátio: {
+    patioSuperior: {
         title: "pátio",
-        image: ""
+        image: "assets/IMG/patioSuperior.jpeg"
     },
     turismo: {
         title: "turismo",
@@ -414,7 +414,7 @@ const infoData = {
     },
     banheiroFeminio1: {
         title: "banheiroFeminio1",
-        image: ""
+        image: "assets/IMG/banheiroFeminino01.jpeg"
     },
     sala8I1: {
         title: "sala8I1",
@@ -422,7 +422,7 @@ const infoData = {
     },
     patioI1: {
         title: "patioI1",
-        image: ""
+        image: "assets/IMG/patioCantina.jpeg"
     },
     areaLuz: {
         title: "areaLuz",
