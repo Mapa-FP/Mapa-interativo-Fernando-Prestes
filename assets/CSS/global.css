@@ -32,6 +32,10 @@
     color: #f20505;
 }
 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28242, 5, 5, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 /* menu */
 
 /* largura e altura da imagem */
@@ -42,6 +46,12 @@
     height: 100%;
     margin: 0 auto 32px auto;
     padding: 12px;
+}
+
+.content-map h1 {
+    margin-top: 10px;
+    text-align: center;
+    color: #a60303;
 }
 
 .img-fluid {
@@ -83,14 +93,6 @@ area:hover {
 
     .newbar {
         width: 100%;
-    }
-
-    .navbar-nav.custom-grid {
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(3, 1fr);
-        list-style-type: none;
-        padding: 0;
     }
 }
 
