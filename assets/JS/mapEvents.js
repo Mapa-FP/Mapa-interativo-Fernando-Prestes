@@ -3,7 +3,7 @@ const infoData = {
 
     predioPrincipal: {
         title: "Prédio Principal",
-        image: "assets/IMG/predioPrincipal.jpg"
+        image: "assets/IMG/predioprincipal.jpg"
     },
     anexo: {
         title: "Anexo",
@@ -288,7 +288,7 @@ const infoData = {
     },
     patio: {
         title: "patio",
-        image: "assets/IMG/predioPrincipal.jpg"
+        image: "assets/IMG/patioPrincipal.jpg"
     },
     diretoraServ: {
         title: "diretoraServ",
@@ -326,11 +326,11 @@ const infoData = {
     //inferior 1
     banheiroMasculino1: {
         title: "banheiroMasculino1",
-        image: ""
+        image: "assets/IMG/banheiroMascInferior.jpg"
     },
     banheiroFeminino2: {
         title: "banheiroFeminino2",
-        image: ""
+        image: "assets/IMG/banheirofemInferior.jpg"
     },
     jardim1: {
         title: "jardim1",
