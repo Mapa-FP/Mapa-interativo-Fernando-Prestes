@@ -3,7 +3,7 @@ const infoData = {
 
     predioPrincipal: {
         title: "Prédio Principal",
-        image: "assets/IMG/predioprincipal.jpg"
+        image: "assets/IMG/predio_principal.jpg"
     },
     anexo: {
         title: "Anexo",
