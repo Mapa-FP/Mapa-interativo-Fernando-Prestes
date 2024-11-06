@@ -25,12 +25,12 @@ const infoData = {
         image: "assets/IMG/laboratórioGestao.jpeg"
     },
     labCadAmbiente01: {
-        title: "labCadAmbiente01",
+        title: "labCadAmbiente",
         image: "assets/IMG/labCadAmbiente01.jpeg"
     },
 
     labCadAmbiente02: {
-        title: "labCadAmbiente02",
+        title: "labCadAmbiente",
         image: ""
     },
     biblioteca: {
@@ -48,19 +48,19 @@ const infoData = {
         image: "assets/IMG/banheiroFemininoS.jpeg"
     },
     salaDesenho01: {
-        title: "salaDesenho01",
+        title: "salaDesenho",
         image: "assets/IMG/desenho1.jpeg"
     },
     salaDesenho02: {
-        title: "salaDesenho02",
+        title: "salaDesenho",
         image: "assets/IMG/desenho2.jpeg"
     },
     salaDesenho03: {
-        title: "salaDesenho03",
+        title: "salaDesenho",
         image: "assets/IMG/desenho3E4.jpeg"
     },
     salaDesenho04: {
-        title: "salaDesenho04",
+        title: "salaDesenho",
         image: "assets/IMG/desenho3E4.jpeg"
     },
     patioSuperior: {
@@ -75,23 +75,23 @@ const infoData = {
         image: "assets/IMG/salaMaker.jpeg"
     },
     salaAmbiente01: {
-        title: "salaAmbiente01",
+        title: "salaAmbiente",
         image: "assets/IMG/salaAmbiente01.jpeg"
     },
     salaAmbiente02: {
-        title: "salaAmbiente02",
+        title: "salaAmbiente",
         image: "assets/IMG/salaAmbiente02.jpeg"
     },
     salaAmbiente03: {
-        title: "salaAmbiente03",
+        title: "salaAmbiente",
         image: ""
     },
     salaAmbiente04: {
-        title: "salaAmbiente04",
+        title: "salaAmbiente",
         image: "assets/IMG/salaAmbiente04.jpeg"
     },
     salaAmbiente05: {
-        title: "salaAmbiente05",
+        title: "salaAmbiente",
         image: "assets/IMG/salaAmbiente05.jpeg"
     },
     labInformatica: {
@@ -99,15 +99,15 @@ const infoData = {
         image: "assets/IMG/aquário.jpg"
     },
     labQuimica: {
-        title: "labQuimica",
+        title: "em breve",
         image: ""
     },
     labFisica: {
-        title: "labFisica",
+        title: "em breve",
         image: ""
     },
     salaProfessores: {
-        title: "salaProfessores",
+        title: "em breve",
         image: ""
     },
     secretaria: {
