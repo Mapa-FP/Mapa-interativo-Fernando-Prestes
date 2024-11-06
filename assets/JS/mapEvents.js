@@ -11,7 +11,7 @@ const infoData = {
     },
     quadraCoberta: {
         title: "Quadra Coberta",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5RKfn_46BEkwfszsniINRwX7t9Q1esafrMQ&s"
+        image: "assets/IMG/quadraCoberta.jpeg"
     },
     quadrinha: {
         title: "Quadra aberta",
@@ -26,58 +26,42 @@ const infoData = {
     },
     labCadAmbiente01: {
         title: "labCadAmbiente01",
-        image: ""
+        image: "assets/IMG/labCadAmbiente01.jpeg"
     },
 
     labCadAmbiente02: {
         title: "labCadAmbiente02",
         image: ""
     },
-
-    labCadAmbiente03: {
-        title: "labCadAmbiente03",
-        image: ""
-    },
-
-    labCadAmbiente04: {
-        title: "labCadAmbiente04",
-        image: ""
-    },
-
     biblioteca: {
         title: "biblioteca",
-        image: ""
+        image: "assets/IMG/biblioteca.jpeg"
     },
-    arquivoMorto: {
-        title: "arquivoMorto",
-        image: ""
-    },
+    
     //superior
-
-   
     banheiroMasculinoS: {
         title: "banheiroMasculinoS",
-        image: ""
+        image: "assets/IMG/banheiroMasculinoS.jpeg"
     },
     banheiroFemininoS: {
         title: "banheiroFemininoS",
-        image: ""
+        image: "assets/IMG/banheiroFemininoS.jpeg"
     },
     salaDesenho01: {
         title: "salaDesenho01",
-        image: ""
+        image: "assets/IMG/desenho1.jpeg"
     },
     salaDesenho02: {
         title: "salaDesenho02",
-        image: ""
+        image: "assets/IMG/desenho2.jpeg"
     },
     salaDesenho03: {
         title: "salaDesenho03",
-        image: ""
+        image: "assets/IMG/desenho3E4.jpeg"
     },
     salaDesenho04: {
         title: "salaDesenho04",
-        image: ""
+        image: "assets/IMG/desenho3E4.jpeg"
     },
     patioSuperior: {
         title: "pátio",
@@ -86,21 +70,9 @@ const infoData = {
 
     //térreo
 
-    sala1T: {
-        title: "sala1T",
-        image: ""
-    },
-    sala2T: {
-        title: "sala2T",
-        image: ""
-    },
     salaMaker: {
         title: "salaMaker",
-        image: ""
-    },
-    cozinha: {
-        title: "cozinha",
-        image: ""
+        image: "assets/IMG/salaMaker.jpeg"
     },
     salaAmbiente01: {
         title: "salaAmbiente01",
@@ -108,7 +80,7 @@ const infoData = {
     },
     salaAmbiente02: {
         title: "salaAmbiente02",
-        image: ""
+        image: "assets/IMG/salaAmbiente02.jpeg"
     },
     salaAmbiente03: {
         title: "salaAmbiente03",
@@ -118,150 +90,74 @@ const infoData = {
         title: "salaAmbiente04",
         image: "assets/IMG/salaAmbiente04.jpeg"
     },
-    sala4T: {
+    salaAmbiente05: {
         title: "salaAmbiente05",
-        image: ""
+        image: "assets/IMG/salaAmbiente05.jpeg"
     },
     labInformatica: {
-        title: "labInformatica",
-        image: ""
+        title: "aquário",
+        image: "assets/IMG/aquário.jpg"
     },
     labQuimica: {
         title: "labQuimica",
-        image: ""
-    },
-    deposito02: {
-        title: "deposito02",
         image: ""
     },
     labFisica: {
         title: "labFisica",
         image: ""
     },
-    almoxarifado: {
-        title: "almoxarifado",
-        image: ""
-    },
-    orientadoraEducacional: {
-        title: "orientadoraEducacional",
-        image: ""
-    },
-    salaPortugues: {
-        title: "salaPortugues",
-        image: ""
-    },
-    secaoPessoal: {
-        title: "secaoPessoal",
-        image: ""
-    },
     salaProfessores: {
         title: "salaProfessores",
         image: ""
     },
-    portaria: {
-        title: "portaria",
-        image: ""
-    },
-    deposito01: {
-        title: "deposito01",
-        image: ""
-    },
-    secretaria01: {
-        title: "secretaria01",
+    secretaria: {
+        title: "secretaria",
         image: "assets/IMG/secretaria.jpeg"
-    },
-    admSecretaria: {
-        title: "admSecretaria",
-        image: ""
-    },
-    secretaria02: {
-        title: "secretaria02",
-        image: ""
-    },
-    setorEstagio01: {
-        title: "setorEstagio01",
-        image: ""
-    },
-    coordPedag: {
-        title: "coordPedag",
-        image: ""
-    },
-    setorEstagio02: {
-        title: "setorEstagio02",
-        image: ""
-    },
-    grafica: {
-        title: "grafica",
-        image: ""
-    },
-    secretaria03: {
-        title: "secretaria03",
-        image: ""
     },
     patio: {
         title: "patio",
         image: "assets/IMG/patioPrincipal.jpg"
     },
-    diretoraServ: {
-        title: "diretoraServ",
-        image: ""
-    },
-    diretora: {
-        title: "diretora",
-        image: ""
-    },
-    manutencao: {
-        title: "manutencao",
-        image: ""
-    },
     apm: {
-        title: "apm",
+        title: "em breve",
         image: ""
     },
     centroMemoria: {
-        title: "centroMemoria",
+        title: "em breve",
         image: ""
     },
     multimeios: {
         title: "multimeios",
         image: ""
     },
-    deposito03: {
-        title: "deposito03",
-        image: ""
-    },
-    salaIngles: {
-        title: "salaIngles",
-        image: ""
-    },
 
     //inferior 1
     banheiroMasculino1: {
-        title: "banheiroMasculino1",
+        title: "banheiroMasculino",
         image: "assets/IMG/banheiroMascInferior.jpg"
     },
     banheiroFeminino2: {
-        title: "banheiroFeminino2",
+        title: "banheiroFeminino",
         image: "assets/IMG/banheirofemInferior.jpg"
     },
     banheiroMasculinoC: {
-        title: "banheiroMasculinoC",
+        title: "desativado",
         image: ""
     },
     banheiroFemininoC: {
-        title: "banheiroFemininoC",
+        title: "desativado",
         image: ""
     },
-    cantinaRefereitorio: {
-        title: "cantinaRefereitorio",
-        image: ""
+    cantinaRefeitorio: {
+        title: "cantina",
+        image: "assets/IMG/refeitório.jpg"
     },
     segurancaTrabalho: {
-        title: "segurancaTrabalho",
+        title: "em breve",
         image: ""
     },
     banheiroFeminio1: {
-        title: "banheiroFeminio1",
+        title: "banheiroFeminio",
         image: "assets/IMG/banheiroFeminino01.jpeg"
     },
     patioI1: {
@@ -282,7 +178,7 @@ const infoData = {
     },
     anfiteatro: {
         title: "desativado",
-        image: ""
+        image: "assets/IMG/anfiteatro.jpeg"
     },
     oficinaMecanica: {
         title: "desativado",
