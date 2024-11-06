@@ -26,12 +26,12 @@ const infoData = {
     },
     labCadAmbiente01: {
         title: "labCadAmbiente",
-        image: "assets/IMG/labCadAmbiente01.jpeg"
+        image: ""
     },
 
     labCadAmbiente02: {
         title: "labCadAmbiente",
-        image: ""
+        image: "assets/IMG/labCadAmbiente02.jpeg"
     },
     biblioteca: {
         title: "biblioteca",
