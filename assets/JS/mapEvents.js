@@ -25,7 +25,7 @@ const infoData = {
         image: "assets/IMG/laboratórioGestao.jpeg"
     },
     labCadAmbiente01: {
-        title: "labCadAmbiente",
+        title: "em breve",
         image: ""
     },
 
@@ -83,7 +83,7 @@ const infoData = {
         image: "assets/IMG/salaAmbiente02.jpeg"
     },
     salaAmbiente03: {
-        title: "salaAmbiente",
+        title: "em breve",
         image: ""
     },
     salaAmbiente04: {
