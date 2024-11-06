@@ -6,8 +6,8 @@ const infoData = {
         image: "assets/IMG/predio_principal.jpg"
     },
     anexo: {
-        title: "Anexo",
-        image: "https://media-cdn.tripadvisor.com/media/photo-s/0f/fb/9d/c4/lugar-lindo-paraiso-vista.jpg"
+        title: "em breve",
+        image: ""
     },
     quadraCoberta: {
         title: "Quadra Coberta",
@@ -128,7 +128,7 @@ const infoData = {
     },
     multimeios: {
         title: "multimeios",
-        image: ""
+        image: "assets/IMG/multimeios.jpeg"
     },
 
     //inferior 1

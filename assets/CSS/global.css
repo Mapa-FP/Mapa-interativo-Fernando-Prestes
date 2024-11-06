@@ -96,3 +96,19 @@ area:hover {
     }
 }
 
+
+/* ajuda */
+.dicas,table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+/* tcc */
+.tcc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
