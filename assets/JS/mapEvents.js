@@ -24,32 +24,6 @@ const infoData = {
         title: "labCadDeGestão",
         image: "assets/IMG/laboratórioGestao.jpeg"
     },
-
-    sala1A: {
-        title: "sala1A",
-        image: ""
-    },
-
-    sala2A: {
-        title: "sala2A",
-        image: ""
-    },
-
-    sala3A: {
-        title: "sala3A",
-        image: ""
-    },
-
-    sala4A: {
-        title: "sala4A",
-        image: ""
-    },
-
-    labCadOperacional: {
-        title: "labCadOperacional",
-        image: ""
-    },
-
     labCadAmbiente01: {
         title: "labCadAmbiente01",
         image: ""
@@ -74,69 +48,19 @@ const infoData = {
         title: "biblioteca",
         image: ""
     },
-
-    sala5A: {
-        title: "sala5A",
-        image: ""
-    },
-
-    sala6A: {
-        title: "sala6A",
-        image: ""
-    },
-
-    sala7A: {
-        title: "sala7A",
-        image: ""
-    },
-
-    sala8A: {
-        title: "sala8A",
-        image: ""
-    },
-
     arquivoMorto: {
         title: "arquivoMorto",
         image: ""
     },
-
-    sala9A: {
-        title: "sala9A",
-        image: ""
-    },
-
     //superior
 
-    sala1S: {
-        title: "sala1S",
+   
+    banheiroMasculinoS: {
+        title: "banheiroMasculinoS",
         image: ""
     },
-    sala2S: {
-        title: "sala2S",
-        image: ""
-    },
-    sala3S: {
-        title: "sala3S",
-        image: ""
-    },
-    sala4S: {
-        title: "sala4S",
-        image: ""
-    },
-    sala5S: {
-        title: "sala5S",
-        image: ""
-    },
-    topografia: {
-        title: "topografia",
-        image: ""
-    },
-    sala6S: {
-        title: "sala6S",
-        image: ""
-    },
-    sala7S: {
-        title: "sala7S",
+    banheiroFemininoS: {
+        title: "banheiroFemininoS",
         image: ""
     },
     salaDesenho01: {
@@ -155,17 +79,9 @@ const infoData = {
         title: "salaDesenho04",
         image: ""
     },
-    salaDesenho05: {
-        title: "salaDesenho05",
-        image: ""
-    },
     patioSuperior: {
         title: "pátio",
         image: "assets/IMG/patioSuperior.jpeg"
-    },
-    turismo: {
-        title: "turismo",
-        image: ""
     },
 
     //térreo
@@ -176,10 +92,6 @@ const infoData = {
     },
     sala2T: {
         title: "sala2T",
-        image: ""
-    },
-    sala3T: {
-        title: "sala3T",
         image: ""
     },
     salaMaker: {
@@ -207,7 +119,7 @@ const infoData = {
         image: "assets/IMG/salaAmbiente04.jpeg"
     },
     sala4T: {
-        title: "sala4T",
+        title: "salaAmbiente05",
         image: ""
     },
     labInformatica: {
@@ -332,46 +244,6 @@ const infoData = {
         title: "banheiroFeminino2",
         image: "assets/IMG/banheirofemInferior.jpg"
     },
-    jardim1: {
-        title: "jardim1",
-        image: ""
-    },
-    jardim2: {
-        title: "jardim2",
-        image: ""
-    },
-    sala1I1: {
-        title: "sala1I1",
-        image: ""
-    },
-    sala2I1: {
-        title: "sala2I1",
-        image: ""
-    },
-    sala3I1: {
-        title: "sala3I1",
-        image: ""
-    },
-    sala4I1: {
-        title: "sala4I1",
-        image: ""
-    },
-    sala5I1: {
-        title: "sala5I1",
-        image: ""
-    },
-    sala6I1: {
-        title: "sala6I1",
-        image: ""
-    },
-    sala7I1: {
-        title: "sala7I1",
-        image: ""
-    },
-    depositoLimpeza: {
-        title: "depositoLimpeza",
-        image: ""
-    },
     banheiroMasculinoC: {
         title: "banheiroMasculinoC",
         image: ""
@@ -380,75 +252,40 @@ const infoData = {
         title: "banheiroFemininoC",
         image: ""
     },
-    dispensa: {
-        title: "dispensa",
-        image: ""
-    },
-    cantina: {
-        title: "cantina",
-        image: ""
-    },
     cantinaRefereitorio: {
         title: "cantinaRefereitorio",
-        image: ""
-    },
-    depositoAlimento: {
-        title: "depositoAlimento",
-        image: ""
-    },
-    depositoI1: {
-        title: "depositoI1",
         image: ""
     },
     segurancaTrabalho: {
         title: "segurancaTrabalho",
         image: ""
     },
-    manutencao: {
-        title: "manutencao",
-        image: ""
-    },
-    materialEsportivo: {
-        title: "materialEsportivo",
-        image: ""
-    },
     banheiroFeminio1: {
         title: "banheiroFeminio1",
         image: "assets/IMG/banheiroFeminino01.jpeg"
-    },
-    sala8I1: {
-        title: "sala8I1",
-        image: ""
     },
     patioI1: {
         title: "patioI1",
         image: "assets/IMG/patioCantina.jpeg"
     },
     areaLuz: {
-        title: "areaLuz",
+        title: "áreaLuz",
         image: "assets/IMG/areaLuz.jpeg"
     },
 
     //inferior 2
 
-    sala1I2: {
-        title: "sala1I2",
-        image: ""
-    },
-    sala2I2: {
-        title: "sala2I2",
-        image: ""
-    },
+    
     pneumatica: {
-        title: "pneumatica",
+        title: "desativado",
         image: ""
     },
     anfiteatro: {
-        title: "anfiteatro",
+        title: "desativado",
         image: ""
     },
     oficinaMecanica: {
-        title: "oficinaMecanica",
+        title: "desativado",
         image: ""
     }
 };
