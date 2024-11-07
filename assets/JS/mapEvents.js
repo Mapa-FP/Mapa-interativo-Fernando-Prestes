@@ -40,27 +40,27 @@ const infoData = {
     
     //superior
     banheiroMasculinoS: {
-        title: "banheiroMasculinoS",
+        title: "banheiro masculinoS",
         image: "assets/IMG/banheiroMasculinoS.jpeg"
     },
     banheiroFemininoS: {
-        title: "banheiroFemininoS",
+        title: "banheiro femininoS",
         image: "assets/IMG/banheiroFemininoS.jpeg"
     },
     salaDesenho01: {
-        title: "salaDesenho",
+        title: "sala Desenho",
         image: "assets/IMG/desenho1.jpeg"
     },
     salaDesenho02: {
-        title: "salaDesenho",
+        title: "sala Desenho",
         image: "assets/IMG/desenho2.jpeg"
     },
     salaDesenho03: {
-        title: "salaDesenho",
+        title: "sala Desenho",
         image: "assets/IMG/desenho3E4.jpeg"
     },
     salaDesenho04: {
-        title: "salaDesenho",
+        title: "sala Desenho",
         image: "assets/IMG/desenho3E4.jpeg"
     },
     patioSuperior: {
@@ -71,15 +71,15 @@ const infoData = {
     //térreo
 
     salaMaker: {
-        title: "salaMaker",
+        title: "sala Maker",
         image: "assets/IMG/salaMaker.jpeg"
     },
     salaAmbiente01: {
-        title: "salaAmbiente",
+        title: "laboratório",
         image: "assets/IMG/salaAmbiente01.jpeg"
     },
     salaAmbiente02: {
-        title: "salaAmbiente",
+        title: "laboratório",
         image: "assets/IMG/salaAmbiente02.jpeg"
     },
     salaAmbiente03: {
@@ -87,11 +87,11 @@ const infoData = {
         image: ""
     },
     salaAmbiente04: {
-        title: "salaAmbiente",
+        title: "laboratório",
         image: "assets/IMG/salaAmbiente04.jpeg"
     },
     salaAmbiente05: {
-        title: "salaAmbiente",
+        title: "laboratório",
         image: "assets/IMG/salaAmbiente05.jpeg"
     },
     labInformatica: {
@@ -115,7 +115,7 @@ const infoData = {
         image: "assets/IMG/secretaria.jpeg"
     },
     patio: {
-        title: "patio",
+        title: "pátio",
         image: "assets/IMG/patioPrincipal.jpg"
     },
     apm: {
@@ -133,11 +133,11 @@ const infoData = {
 
     //inferior 1
     banheiroMasculino1: {
-        title: "banheiroMasculino",
+        title: "banheiro masculino",
         image: "assets/IMG/banheiroMascInferior.jpg"
     },
     banheiroFeminino2: {
-        title: "banheiroFeminino",
+        title: "banheiro feminino",
         image: "assets/IMG/banheirofemInferior.jpg"
     },
     banheiroMasculinoC: {
@@ -157,15 +157,15 @@ const infoData = {
         image: ""
     },
     banheiroFeminio1: {
-        title: "banheiroFeminio",
+        title: "banheiro feminio",
         image: "assets/IMG/banheiroFeminino01.jpeg"
     },
     patioI1: {
-        title: "patioI1",
+        title: "pátio",
         image: "assets/IMG/patioCantina.jpeg"
     },
     areaLuz: {
-        title: "áreaLuz",
+        title: "área de luz",
         image: "assets/IMG/areaLuz.jpeg"
     },
 
@@ -193,12 +193,18 @@ function shownewbar(area) {
     if (info) {
         const newbar = document.getElementById('newbar');
         newbar.innerHTML = `
-            <div class="newbar" style="display: flex; flex-direction: column;">
+            <div class="newbar">
                 <h2>${info.title}</h2>
                 <img class="newimg" src="${info.image}" alt="${info.title}">
             </div>
+            <div class="voltar">
+                <a href="#inicio">voltar</a>
+            </div>
         `;
-        newbar.style.display = 'flex';
+        newbar.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'end'
+         });
     }
 }
 

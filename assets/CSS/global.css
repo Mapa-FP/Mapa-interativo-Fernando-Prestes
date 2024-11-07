@@ -42,6 +42,9 @@
 
 
 .content-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 70%;
     height: 100%;
     margin: 0 auto 32px auto;
@@ -69,11 +72,15 @@ area:hover {
 /* newbar */
 
 .newbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 60%;
     height: 100%;
     margin: 0 auto 32px auto;
     padding: 12px;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .newimg {
@@ -83,19 +90,12 @@ area:hover {
     object-fit: cover;
 }
 
-/* dispositivos */
-
-@media (max-width: 768px) {
-    .content-map {
-        width: 100%;
-        padding: 0px;
-    }
-
-    .newbar {
-        width: 100%;
-    }
+/* voltar */
+.voltar a{
+    text-align: center;
+    text-decoration: none;
+    color: #a60303;
 }
-
 
 /* ajuda */
 .dicas,table {
@@ -111,4 +111,17 @@ area:hover {
     flex-direction: column;
     align-items: center;
     margin-top: 16px;
+}
+
+/* dispositivos */
+
+@media (max-width: 768px) {
+    .content-map {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .newbar {
+        width: 100%;
+    }
 }
