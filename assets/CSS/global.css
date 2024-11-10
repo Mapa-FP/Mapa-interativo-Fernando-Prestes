@@ -69,33 +69,22 @@ area:hover {
     cursor: pointer;
 }
 
-/* newbar */
+/* modal */
 
-.newbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 60%;
-    height: 100%;
-    margin: 0 auto 32px auto;
-    padding: 12px;
-    text-align: center;
-    text-transform: capitalize;
+.modal-content {
+    background-color: #fff;
+    border-radius: 15px;
 }
 
-.newimg {
-    border: #a60303 2px solid;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
+.modal-header {
+    border-bottom: none;
 }
 
-/* voltar */
-.voltar a{
-    text-align: center;
-    text-decoration: none;
-    color: #a60303;
+#modalImage {
+    max-height: 80vh;
+    object-fit: contain;
 }
+
 
 /* ajuda */
 .dicas,table {
@@ -105,13 +94,6 @@ area:hover {
     margin-top: 16px;
 }
 
-/* tcc */
-.tcc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 16px;
-}
 
 /* dispositivos */
 
@@ -121,7 +103,4 @@ area:hover {
         padding: 0px;
     }
 
-    .newbar {
-        width: 100%;
-    }
 }

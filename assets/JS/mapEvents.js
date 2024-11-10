@@ -37,7 +37,7 @@ const infoData = {
         title: "biblioteca",
         image: "assets/IMG/biblioteca.jpeg"
     },
-    
+
     //superior
     banheiroMasculinoS: {
         title: "banheiro masculinoS",
@@ -171,7 +171,7 @@ const infoData = {
 
     //inferior 2
 
-    
+
     pneumatica: {
         title: "desativado",
         image: ""
@@ -186,32 +186,27 @@ const infoData = {
     }
 };
 
-function shownewbar(area) {
+function showLocationModal(area) {
     const infoKey = area.getAttribute('data-info');
     const info = infoData[infoKey];
     
     if (info) {
-        const newbar = document.getElementById('newbar');
-        newbar.innerHTML = `
-            <div class="newbar">
-                <h2>${info.title}</h2>
-                <img class="newimg" src="${info.image}" alt="${info.title}">
-            </div>
-            <div class="voltar">
-                <a href="#inicio">voltar</a>
-            </div>
-        `;
-        newbar.scrollIntoView({ 
-            behavior: 'smooth',
-            block: 'end'
-         });
+        const modal = new bootstrap.Modal(document.getElementById('locationModal'));
+        const modalTitle = document.getElementById('locationModalLabel');
+        const modalImage = document.getElementById('modalImage');
+        
+        modalTitle.textContent = info.title;
+        modalImage.src = info.image;
+        modalImage.alt = info.title;
+        
+        modal.show();
     }
 }
 
-// Adicionar listeners de evento para todas as áreas
+// Event listeners para as áreas
 document.querySelectorAll('area').forEach(area => {
-    area.addEventListener('click', () => shownewbar(area));
+    area.addEventListener('click', () => showLocationModal(area));
     area.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') shownewbar(area);
+        if (e.key === 'Enter') showLocationModal(area);
     });
 });
