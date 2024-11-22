@@ -6,8 +6,8 @@ const infoData = {
         image: "assets/IMG/predio_principal.jpg"
     },
     anexo: {
-        title: "em breve",
-        image: ""
+        title: "anexo",
+        image: "assets/IMG/corredorAnexo.jpg"
     },
     quadraCoberta: {
         title: "Quadra Coberta",
@@ -83,8 +83,8 @@ const infoData = {
         image: "assets/IMG/salaAmbiente02.jpeg"
     },
     salaAmbiente03: {
-        title: "em breve",
-        image: ""
+        title: "laboratório",
+        image: "assets/IMG/lab3.jpg"
     },
     salaAmbiente04: {
         title: "laboratório",
@@ -153,8 +153,8 @@ const infoData = {
         image: "assets/IMG/refeitório.jpg"
     },
     segurancaTrabalho: {
-        title: "em breve",
-        image: ""
+        title: "segurança do trabalho",
+        image: "assets/IMG/seguranca.jpg"
     },
     banheiroFeminio1: {
         title: "banheiro feminio",
