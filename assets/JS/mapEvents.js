@@ -25,8 +25,8 @@ const infoData = {
         image: "assets/IMG/laboratórioGestao.jpeg"
     },
     labCadAmbiente01: {
-        title: "em breve",
-        image: ""
+        title: "labCadAmbiente",
+        image: "assets/IMG/imagelab.jpg"
     },
 
     labCadAmbiente02: {
